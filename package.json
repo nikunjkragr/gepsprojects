@@ -2,7 +2,7 @@
   "name": "my-company-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/your-repo-name",
+  "homepage": "https://nikunjkragr.github.io/gepsprojects",
 
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
