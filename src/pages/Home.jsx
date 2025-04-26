@@ -159,7 +159,6 @@ const Home = () => {
           {images.map((image, index) => (
             <div key={index} className="slide">
               <img src={image.src} alt={`Slide ${index + 1}`} />
-              <div className="image-location">{image.location}</div>
             </div>
           ))}
         </Slider>

@@ -15,11 +15,11 @@ const Header = () => {
       {/* Navigation Tabs */}
       <nav className="nav-links">
         <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>Home</NavLink>
-        <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>About Us</NavLink>
+        <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>AboutUs</NavLink>
         
         <NavLink to="/projects" className={({ isActive }) => (isActive ? "active" : "")}>Projects</NavLink>
         <NavLink to="/career" className={({ isActive }) => (isActive ? "active" : "")}>Career</NavLink>
-        <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>Contact Us</NavLink>
+        <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>ContactUs</NavLink>
         
       </nav>
     </header>
