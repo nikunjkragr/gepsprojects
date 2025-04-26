@@ -332,12 +332,6 @@ const projectData = [
         "status": "Completed"
     },
     {
-        "name": "M/s UMP Power Projects Y-300B, Sector-12, Noida",
-        "startDate": "15-01-2006",
-        "endDate": "11-10-2006",
-        "status": "Completed"
-    },
-    {
         "name": "M/s NFL Employees Sehkari Avas Samiti Ltd.\nProject-Greater Noida",
         "startDate": "26-11-2006",
         "endDate": "05-05-2007",
