@@ -4,7 +4,7 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about-container">
-      <h1>Company Introduction – Geps Projects</h1>
+      <h1> Introduction – Geps Projects</h1>
       <p>
         At Geps Projects, we specialize in delivering comprehensive external electrification solutions, 
         including High Tension (HT) and Low Tension (LT) works. With a strong foundation in power 

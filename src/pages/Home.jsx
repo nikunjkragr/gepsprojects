@@ -63,7 +63,7 @@ import client4 from "../assets/clients/client4.png";
 import client5 from "../assets/clients/client5.png";
 import client6 from "../assets/clients/client6.jpg";
 import client7 from "../assets/clients/client7.png";
-import client8 from "../assets/clients/client8.jpeg";
+import client8 from "../assets/clients/client8.png";
 import client9 from "../assets/clients/client9.jpg";
 import client10 from "../assets/clients/client10.png";
 import client11 from "../assets/clients/client11.jpeg";
