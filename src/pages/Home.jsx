@@ -5,50 +5,25 @@ import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from "react-router-dom";
 
 // Import company images for the slideshow
-import img1 from "../assets/gepsSitePhotos/img1.jpg";
-import img2 from "../assets/gepsSitePhotos/img2.jpg";
-import img3 from "../assets/gepsSitePhotos/img3.jpg";
-import img4 from "../assets/gepsSitePhotos/img4.jpg";
-import img5 from "../assets/gepsSitePhotos/img5.jpg";
-import img6 from "../assets/gepsSitePhotos/img6.jpg";
-import img7 from "../assets/gepsSitePhotos/img7.jpg";
-import img8 from "../assets/gepsSitePhotos/img8.jpg";
-import img9 from "../assets/gepsSitePhotos/img9.jpg";
-import img10 from "../assets/gepsSitePhotos/img10.jpg";
-import img11 from "../assets/gepsSitePhotos/img11.jpg";
-import img12 from "../assets/gepsSitePhotos/img12.jpg";
-import img13 from "../assets/gepsSitePhotos/img13.jpg";
-import img14 from "../assets/gepsSitePhotos/img14.jpg";
-import img15 from "../assets/gepsSitePhotos/img15.jpg";
-import img16 from "../assets/gepsSitePhotos/img16.jpg";
-import img17 from "../assets/gepsSitePhotos/img17.jpg";
-import img18 from "../assets/gepsSitePhotos/img18.jpg";
-import img19 from "../assets/gepsSitePhotos/img19.jpg";
-import img20 from "../assets/gepsSitePhotos/img20.jpg";
-import img21 from "../assets/gepsSitePhotos/img21.jpg";
-import img22 from "../assets/gepsSitePhotos/img22.jpg";
-import img23 from "../assets/gepsSitePhotos/img23.jpg";
-import img24 from "../assets/gepsSitePhotos/img24.jpg";
-import img25 from "../assets/gepsSitePhotos/img25.jpg";
-import img26 from "../assets/gepsSitePhotos/img26.jpg";
-import img27 from "../assets/gepsSitePhotos/img27.jpg";
-import img28 from "../assets/gepsSitePhotos/img28.jpg";
-import img29 from "../assets/gepsSitePhotos/img29.jpg";
-import img30 from "../assets/gepsSitePhotos/img30.jpg";
-import img31 from "../assets/gepsSitePhotos/img31.jpg";
-import img32 from "../assets/gepsSitePhotos/img32.jpg";
-import img33 from "../assets/gepsSitePhotos/img33.jpg";
-import img34 from "../assets/gepsSitePhotos/img34.jpg";
-import img35 from "../assets/gepsSitePhotos/img35.jpg";
-import img36 from "../assets/gepsSitePhotos/img36.jpg";
-import img37 from "../assets/gepsSitePhotos/img37.jpg";
-import img38 from "../assets/gepsSitePhotos/img38.jpg";
-import img39 from "../assets/gepsSitePhotos/img39.jpg";
-import img40 from "../assets/gepsSitePhotos/img40.jpeg";
-import img41 from "../assets/gepsSitePhotos/img41.jpeg";
-import img42 from "../assets/gepsSitePhotos/img42.jpeg";
-import img43 from "../assets/gepsSitePhotos/img43.jpeg";
-import img44 from "../assets/gepsSitePhotos/img44.jpeg";
+import img1 from "../assets/gepsSitePhotos/img1.png";
+import img2 from "../assets/gepsSitePhotos/img2.png";
+import img3 from "../assets/gepsSitePhotos/img3.png";
+import img4 from "../assets/gepsSitePhotos/img4.png";
+import img5 from "../assets/gepsSitePhotos/img5.png";
+import img6 from "../assets/gepsSitePhotos/img6.png";
+import img7 from "../assets/gepsSitePhotos/img7.png";
+import img8 from "../assets/gepsSitePhotos/img8.png";
+import img9 from "../assets/gepsSitePhotos/img9.png";
+import img10 from "../assets/gepsSitePhotos/img10.png";
+import img11 from "../assets/gepsSitePhotos/img11.png";
+import img12 from "../assets/gepsSitePhotos/img12.png";
+import img13 from "../assets/gepsSitePhotos/img13.png";
+import img14 from "../assets/gepsSitePhotos/img14.png";
+import img15 from "../assets/gepsSitePhotos/img15.png";
+import img16 from "../assets/gepsSitePhotos/img16.png";
+import img17 from "../assets/gepsSitePhotos/img17.png";
+import img18 from "../assets/gepsSitePhotos/img18.png";
+import img19 from "../assets/gepsSitePhotos/img19.png";
 
 
 
@@ -105,32 +80,7 @@ const images = [
   { src: img16, location: "New York Office" },
   { src: img17, location: "New York Office" },
   { src: img18, location: "New York Office" },
-  { src: img19, location: "New York Office" },
-  { src: img20, location: "New York Office" },
-  { src: img21, location: "New York Office" },
-  { src: img22, location: "New York Office" },
-  { src: img23, location: "New York Office" },
-  { src: img24, location: "New York Office" },
-  { src: img25, location: "New York Office" },
-  { src: img26, location: "New York Office" },
-  { src: img27, location: "New York Office" },
-  { src: img28, location: "New York Office" },
-  { src: img29, location: "New York Office" },
-  { src: img30, location: "New York Office" },
-  { src: img31, location: "New York Office" },
-  { src: img32, location: "New York Office" },
-  { src: img33, location: "New York Office" },
-  { src: img34, location: "New York Office" },
-  { src: img35, location: "New York Office" },
-  { src: img36, location: "New York Office" },
-  { src: img37, location: "New York Office" },
-  { src: img38, location: "New York Office" },
-  { src: img39, location: "New York Office" },
-  { src: img40, location: "New York Office" },
-  { src: img41, location: "New York Office" },
-  { src: img42, location: "New York Office" },
-  { src: img43, location: "New York Office" },
-  { src: img44, location: "New York Office" }
+  { src: img19, location: "New York Office" }
   
   
 
