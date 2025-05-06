@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -6,12 +6,12 @@ import { useNavigate } from "react-router-dom";
 
 // Import company images for the slideshow
 import img1 from "../assets/gepsSitePhotos/img1.png";
-import img2 from "../assets/gepsSitePhotos/img2.png";
+//import img2 from "../assets/gepsSitePhotos/img2.png";
 import img3 from "../assets/gepsSitePhotos/img3.png";
 import img4 from "../assets/gepsSitePhotos/img4.png";
 import img5 from "../assets/gepsSitePhotos/img5.png";
 import img6 from "../assets/gepsSitePhotos/img6.png";
-import img7 from "../assets/gepsSitePhotos/img7.png";
+//import img7 from "../assets/gepsSitePhotos/img7.png";
 import img8 from "../assets/gepsSitePhotos/img8.png";
 import img9 from "../assets/gepsSitePhotos/img9.png";
 import img10 from "../assets/gepsSitePhotos/img10.png";
@@ -23,9 +23,9 @@ import img15 from "../assets/gepsSitePhotos/img15.png";
 import img16 from "../assets/gepsSitePhotos/img16.png";
 import img17 from "../assets/gepsSitePhotos/img17.png";
 import img18 from "../assets/gepsSitePhotos/img18.png";
-import img19 from "../assets/gepsSitePhotos/img19.png";
+//import img19 from "../assets/gepsSitePhotos/img19.png";
 
-
+import brochure from "../assets/brochure.pdf";
 
 
 
@@ -63,12 +63,11 @@ import client28 from "../assets/clients/client28.png";
 
 const images = [
   { src: img1, location: "New York Office" },
-  { src: img2, location: "London Headquarters" },
+  
   { src: img3, location: "Berlin Branch" },
   {src:img4, location:"New Delhi"},
   { src: img5, location: "New York Office" },
   { src: img6, location: "New York Office" },
-  { src: img7, location: "New York Office" },
   { src: img8, location: "New York Office" },
   { src: img9, location: "New York Office" },
   { src: img10, location: "New York Office" },
@@ -80,17 +79,18 @@ const images = [
   { src: img16, location: "New York Office" },
   { src: img17, location: "New York Office" },
   { src: img18, location: "New York Office" },
-  { src: img19, location: "New York Office" }
   
   
 
 ];
 
 const clients = [client1, client2, client3, client4, client5, client6,client7, client8, client9, client10, client11, client12,client13,client14, client15, client16, client17, client18,client19, client20, client21,client22,client23,client24,client25,client26,client27,client28];
-
+const brochureURL=brochure+"#toolbar=0";
 const Home = () => {
   const navigate = useNavigate();
   
+  const [showPopup, setShowPopup] = useState(false);
+
   const settings = {
     dots: true,
     infinite: true,
@@ -120,9 +120,27 @@ const Home = () => {
         <p>
         Geps Projects is a leading provider of external electrification solutions, specializing in both High Tension (HT) and Low Tension (LT) works. With expertise in power distribution, transmission, and electrical infrastructure development, we deliver reliable, efficient, and high-quality electrification services. Our commitment to safety, innovation, and excellence ensures seamless power solutions for industrial, commercial, and residential projects. At Geps Projects, we power progress with precision and professionalism.
         </p>
-        <button onClick={() => navigate("/about")}>Know More</button>
+        <div className="about-buttons">
+          <button onClick={() => navigate("/about")}>Know More</button>
+          <a href={brochureURL} target="_blank" rel="noopener noreferrer">
+              <button>GEPS Profile</button>
+              </a>
+        </div>
       </div>
 
+      {/* Brochure Popup */}
+      {showPopup && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <button className="close-button" onClick={() => setShowPopup(false)}>✕</button>
+            <h2>View Brochure</h2>
+            <p>You can open the brochure PDF in a new tab for viewing only.</p>
+            <a href={brochureURL} target="" rel=" ">
+              <button>View Now</button>
+            </a>
+          </div>
+        </div>
+      )}
       {/* Clients Section */}
       <div className="clients-section">
         <h1>Our Clients</h1>
