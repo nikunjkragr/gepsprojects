@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -90,8 +90,7 @@ const brochureURL="/brochure.pdf"+"#toolbar=0";
 const Home = () => {
   const navigate = useNavigate();
   
-  const [showPopup, setShowPopup] = useState(false);
-
+ 
   const settings = {
     dots: true,
     infinite: true,
@@ -123,25 +122,14 @@ const Home = () => {
         </p>
         <div className="about-buttons">
           <button onClick={() => navigate("/about")}>Know More</button>
-          <a href={brochureURL} target="_blank" rel="noopener noreferrer">
+          <a href="/brochure.pdf" target="_blank" rel="noopener noreferrer">
               <button>GEPS Profile</button>
               </a>
         </div>
       </div>
 
       {/* Brochure Popup */}
-      {showPopup && (
-        <div className="modal-overlay">
-          <div className="modal-content">
-            <button className="close-button" onClick={() => setShowPopup(false)}>✕</button>
-            <h2>View Brochure</h2>
-            <p>You can open the brochure PDF in a new tab for viewing only.</p>
-            <a href={brochureURL} target="" rel=" ">
-              <button>View Now</button>
-            </a>
-          </div>
-        </div>
-      )}
+      
       {/* Clients Section */}
       <div className="clients-section">
         <h1>Our Clients</h1>
