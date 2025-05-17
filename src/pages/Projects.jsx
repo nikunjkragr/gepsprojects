@@ -42,7 +42,7 @@ const projectData = [
         "status": "Completed"
     },
     {
-        "name": "M/s Maharishi Polymer Pvt. Ltd Project-Dadri",
+        "name": "M/s Meenakshi Polymer Pvt. Ltd Project-Dadri",
         "startDate": "20-07-2003",
         "endDate": "10-12-2003",
         "status": "Completed"

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaFacebook, FaYoutube } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const ContactBar = () => {
   return (
@@ -10,12 +10,12 @@ const ContactBar = () => {
 
       {/* Social Media Icons */}
       <div className="social-links">
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+       <a href="https://www.linkedin.com/company/geps-projectsindia/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+       {/**   <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
           <FaFacebook />
-        </a>
+        </a>*/}
         {/* <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
           <FaYoutube />
         </a> */}
