@@ -86,7 +86,7 @@ const images = [
 ];
 
 const clients = [client1, client2, client3, client4, client5, client6,client7, client8, client9, client10, client11, client12,client13,client14, client15, client16, client17, client18,client19, client20, client21,client22,client23,client24,client25,client26,client27,client28];
-const brochureURL="/brochure.pdf"+"#toolbar=0";
+const brochureURL="/brochure_geps.pdf"+"#toolbar=0";
 const Home = () => {
   const navigate = useNavigate();
   
@@ -122,7 +122,7 @@ const Home = () => {
         </p>
         <div className="about-buttons">
           <button onClick={() => navigate("/about")}>Know More</button>
-          <a href="/brochure.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/brochure.pdf" target="_blank" rel="noopener noreferrer" content>
               <button>GEPS Profile</button>
               </a>
         </div>
