@@ -25,7 +25,8 @@ import img17 from "../assets/gepsSitePhotos/img17.png";
 import img18 from "../assets/gepsSitePhotos/img18.png";
 //import img19 from "../assets/gepsSitePhotos/img19.png";
 
-import brochure from "../assets/brochure.pdf";
+//import brochure from "/brochure.pdf";    
+//sassets/brochure.pdf";
 
 
 
@@ -85,7 +86,7 @@ const images = [
 ];
 
 const clients = [client1, client2, client3, client4, client5, client6,client7, client8, client9, client10, client11, client12,client13,client14, client15, client16, client17, client18,client19, client20, client21,client22,client23,client24,client25,client26,client27,client28];
-const brochureURL=brochure+"#toolbar=0";
+const brochureURL="/brochure.pdf"+"#toolbar=0";
 const Home = () => {
   const navigate = useNavigate();
   
